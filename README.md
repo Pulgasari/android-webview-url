@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     setContentView(myWebView);
 
     // WebView: Load URL
-    myWebView.loadUrl("http://vegan.ml");
+    myWebView.loadUrl("http://domain.tld");
 
     // WebView: Enable JavaScript
     WebSettings myWebViewSettings = myWebView.getSettings();
