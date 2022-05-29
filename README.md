@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     setContentView(myWebView);
 
     // WebView: Load URL
-    myWebView.loadUrl("http://domain.tld");
+    myWebView.loadUrl("https://domain.tld");
 
     // WebView: Enable JavaScript
     WebSettings myWebViewSettings = myWebView.getSettings();
